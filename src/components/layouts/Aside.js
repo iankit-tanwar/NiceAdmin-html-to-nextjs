@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 export default function Aside() {
@@ -179,46 +180,46 @@ export default function Aside() {
       </li>{/* End Icons Nav */}
       <li className="nav-heading">Pages</li>
       <li className="nav-item">
-        <a className="nav-link collapsed" href="/demo/NiceAdmin/users-profile">
+        <Link className="nav-link collapsed" href="/demo/NiceAdmin/users-profile">
           <i className="bi bi-person" />
           <span>Profile</span>
-        </a>
+        </Link>
       </li>{/* End Profile Page Nav */}
       <li className="nav-item">
-        <a className="nav-link collapsed" href="pages-faq">
+        <Link className="nav-link collapsed" href="pages-faq">
           <i className="bi bi-question-circle" />
           <span>F.A.Q</span>
-        </a>
+        </Link>
       </li>{/* End F.A.Q Page Nav */}
       <li className="nav-item">
-        <a className="nav-link collapsed" href="pages-contact">
+        <Link className="nav-link collapsed" href="pages-contact">
           <i className="bi bi-envelope" />
           <span>Contact</span>
-        </a>
+        </Link>
       </li>{/* End Contact Page Nav */}
       <li className="nav-item">
-        <a className="nav-link collapsed" href="pages-register">
+        <Link className="nav-link collapsed" href="pages-register">
           <i className="bi bi-card-list" />
           <span>Register</span>
-        </a>
+        </Link>
       </li>{/* End Register Page Nav */}
       <li className="nav-item">
-        <a className="nav-link collapsed" href="pages-login">
+        <Link className="nav-link collapsed" href="pages-login">
           <i className="bi bi-box-arrow-in-right" />
           <span>Login</span>
-        </a>
+        </Link>
       </li>{/* End Login Page Nav */}
       <li className="nav-item">
-        <a className="nav-link collapsed" href="pages-error-404">
+        <Link className="nav-link collapsed" href="pages-error-404">
           <i className="bi bi-dash-circle" />
           <span>Error 404</span>
-        </a>
+        </Link>
       </li>{/* End Error 404 Page Nav */}
       <li className="nav-item">
-        <a className="nav-link collapsed" href="pages-blank">
+        <Link className="nav-link collapsed" href="pages-blank">
           <i className="bi bi-file-earmark" />
           <span>Blank</span>
-        </a>
+        </Link>
       </li>{/* End Blank Page Nav */}
     </ul>
   </aside>{/* End Sidebar*/}

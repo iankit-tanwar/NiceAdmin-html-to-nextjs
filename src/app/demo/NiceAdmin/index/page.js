@@ -220,7 +220,7 @@ export default function Home() {
                         </thead>
                         <tbody>
                           <tr>
-                            <th scope="row"><a href="#"><img src="assets/img/product-1.jpg" alt="..."/></a></th>
+                            <th scope="row"><a href="#"><img src="assets/img/product-1.jpg" alt="..." /></a></th>
                             <td><a href="#" className="text-primary fw-bold">Ut inventore ipsa voluptas nulla</a></td>
                             <td>$64</td>
                             <td className="fw-bold">124</td>

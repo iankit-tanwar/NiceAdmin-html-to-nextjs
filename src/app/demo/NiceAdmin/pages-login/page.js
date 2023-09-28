@@ -11,7 +11,12 @@ export default function page() {
           <div className="col-lg-4 col-md-6 d-flex flex-column align-items-center justify-content-center">
             <div className="d-flex justify-content-center py-4">
               <a href="index.html" className="logo d-flex align-items-center w-auto">
-                <img src="assets/img/logo.png" alt />
+              <Image
+                        src="/path/to/your/image.jpg"
+                        alt="Description of the image"
+                        width={50} // Specify the desired width
+                        height={50} // Specify the desired height
+                      />
                 <span className="d-none d-lg-block">NiceAdmin</span>
               </a>
             </div>{/* End Logo */}
@@ -45,7 +50,7 @@ export default function page() {
                     <button className="btn btn-primary w-100" type="submit">Login</button>
                   </div>
                   <div className="col-12">
-                    <p className="small mb-0">Don't have account? <a href="pages-register.html">Create an account</a></p>
+                    <p className="small mb-0">Dont have account? <a href="pages-register.html">Create an account</a></p>
                   </div>
                 </form>
               </div>

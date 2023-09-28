@@ -9,7 +9,12 @@ export default function page() {
       <h1>404</h1>
       <h2>The page you are looking for doesnt exist.</h2>
       <a className="btn" href="index.html">Back to home</a>
-      <img src="assets/img/not-found.svg" className="img-fluid py-5" alt="Page Not Found" />
+      <Image
+                        src="/path/to/your/image.jpg"
+                        alt="Description of the image"
+                        width={50} // Specify the desired width
+                        height={50} // Specify the desired height
+                      />
       <div className="credits">
         {/* All the links in the footer should remain intact. */}
         {/* You can delete the links only if you purchased the pro version. */}

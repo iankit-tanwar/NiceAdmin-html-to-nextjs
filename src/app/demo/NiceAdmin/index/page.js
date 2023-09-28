@@ -408,7 +408,12 @@ export default function Home() {
                       <p>Fugiat voluptas vero eaque accusantium eos. Consequuntur sed ipsam et totam...</p>
                     </div>
                     <div className="post-item clearfix">
-                      <img src="assets/img/news-4.jpg" alt="..." />
+                    <Image
+                        src="/path/to/your/image.jpg"
+                        alt="Description of the image"
+                        width={50} // Specify the desired width
+                        height={50} // Specify the desired height
+                      />
                       <h4><a href="#">Laborum corporis quo dara net para</a></h4>
                       <p>Qui enim quia optio. Eligendi aut asperiores enim repellendusvel rerum cuder...</p>
                     </div>

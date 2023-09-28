@@ -19,7 +19,13 @@ export default function page() {
       <div className="col-xl-4">
         <div className="card">
           <div className="card-body profile-card pt-4 d-flex flex-column align-items-center">
-            <img src="assets/img/profile-img.jpg" alt="Profile" className="rounded-circle" />
+          <Image
+                        src="/path/to/your/image.jpg"
+                        alt="Description of the image"
+                        width={50} // Specify the desired width
+                        height={50} // Specify the desired height
+                        className="rounded-circle"
+                      />  
             <h2>Kevin Anderson</h2>
             <h3>Web Designer</h3>
             <div className="social-links mt-2">
@@ -89,7 +95,13 @@ export default function page() {
                   <div className="row mb-3">
                     <label htmlFor="profileImage" className="col-md-4 col-lg-3 col-form-label">Profile Image</label>
                     <div className="col-md-8 col-lg-9">
-                      <img src="assets/img/profile-img.jpg" alt="Profile" />
+                    <Image
+                        src="/path/to/your/image.jpg"
+                        alt="Description of the image"
+                        width={50} // Specify the desired width
+                        height={50} // Specify the desired height
+                      
+                      />  
                       <div className="pt-2">
                         <a href="#" className="btn btn-primary btn-sm" title="Upload new profile image"><i className="bi bi-upload" /></a>
                         <a href="#" className="btn btn-danger btn-sm" title="Remove my profile image"><i className="bi bi-trash" /></a>

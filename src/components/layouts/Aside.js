@@ -7,7 +7,7 @@ export default function Aside() {
   <aside id="sidebar" className="sidebar">
     <ul className="sidebar-nav" id="sidebar-nav">
       <li className="nav-item">
-        <a className="nav-link " href="index">
+        <a className="nav-link " href="#">
           <i className="bi bi-grid" />
           <span>Dashboard</span>
         </a>
@@ -179,7 +179,7 @@ export default function Aside() {
       </li>{/* End Icons Nav */}
       <li className="nav-heading">Pages</li>
       <li className="nav-item">
-        <a className="nav-link collapsed" href="users-profile">
+        <a className="nav-link collapsed" href="/demo/NiceAdmin/users-profile">
           <i className="bi bi-person" />
           <span>Profile</span>
         </a>
